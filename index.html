@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>My Docs</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Welcome to MkDocs";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> My Docs
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">Welcome to MkDocs</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#commands">Commands</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#project-layout">Project layout</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#new-content">New content</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#writing-docs">Writing Docs</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#1-set-up-your-git-repository">1. Set Up Your Git Repository</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#2-choose-a-static-site-generator">2. Choose a Static Site Generator</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#using-mkdocs">Using MkDocs</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#3-set-up-automated-deployment">3. Set Up Automated Deployment</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#using-github-pages">Using GitHub Pages</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#4-host-your-handbook">4. Host Your Handbook</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#summary">Summary</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#5-setup-github-pages-settings">5. Setup GitHub pages settings</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Info</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="info/">About</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Process</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Software</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="process/software/">Process for software</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="process/software/more-info/">More info</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">My Docs</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">Welcome to MkDocs</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+<h2 id="new-content">New content</h2>
+<p>dfjsdlkfjlksd</p>
+<h2 id="writing-docs">Writing Docs</h2>
+<p>https://www.mkdocs.org/user-guide/writing-your-docs/</p>
+<h2 id="setup">Setup</h2>
+<p>Creating a self-hosted, Git versioned handbook similar to GitLab's handbook can be achieved with a combination of Git for version control, a static site generator for building the site, and a web server for hosting it. Here’s a simple way to get started:</p>
+<h3 id="1-set-up-your-git-repository">1. Set Up Your Git Repository</h3>
+<ol>
+<li><strong>Initialize a Git Repository:</strong></li>
+<li>
+<p>Create a new directory for your handbook and initialize a Git repository.
+     <code>bash
+     mkdir my-handbook
+     cd my-handbook
+     git init</code></p>
+</li>
+<li>
+<p><strong>Add a Remote Repository:</strong></p>
+</li>
+<li>If you want to host your repository on a platform like GitHub, GitLab, or a self-hosted Git server, add the remote URL.
+     <code>bash
+     git remote add origin &lt;remote-repo-url&gt;</code></li>
+</ol>
+<h3 id="2-choose-a-static-site-generator">2. Choose a Static Site Generator</h3>
+<p>Static site generators like Jekyll, Hugo, or MkDocs can transform your Markdown files into a static website. MkDocs is particularly suitable for documentation purposes.</p>
+<h4 id="using-mkdocs">Using MkDocs</h4>
+<ol>
+<li><strong>Install MkDocs:</strong></li>
+<li>MkDocs requires Python, so ensure you have Python installed.</li>
+<li>
+<p>Install MkDocs using pip.
+     <code>bash
+     pip install mkdocs</code></p>
+</li>
+<li>
+<p><strong>Create a New MkDocs Project:</strong></p>
+</li>
+<li>
+<p>Initialize a new MkDocs project in your handbook directory.
+     <code>bash
+     mkdocs new .</code></p>
+</li>
+<li>
+<p><strong>Edit <code>mkdocs.yml</code>:</strong></p>
+</li>
+<li>
+<p>This is the configuration file for your MkDocs project. Customize it according to your needs, such as changing the site name or theme.</p>
+</li>
+<li>
+<p><strong>Add Your Content:</strong></p>
+</li>
+<li>
+<p>Add Markdown files to the <code>docs</code> directory. For example, create an <code>index.md</code> file as the homepage.
+     ```markdown
+     # Welcome to My Handbook</p>
+<p>This is the homepage of the handbook.
+ ```</p>
+</li>
+<li>
+<p><strong>Build and Serve Locally:</strong></p>
+</li>
+<li>Preview your site locally.
+     <code>bash
+     mkdocs serve</code></li>
+<li>This will start a local server at <code>http://127.0.0.1:8000</code>.</li>
+</ol>
+<h3 id="3-set-up-automated-deployment">3. Set Up Automated Deployment</h3>
+<p>You can automate the deployment of your MkDocs site using Git hooks or CI/CD pipelines. For instance, GitHub Pages or GitLab Pages can automatically deploy your site whenever you push changes to your repository.</p>
+<h4 id="using-github-pages">Using GitHub Pages</h4>
+<ol>
+<li><strong>GitHub Actions Workflow:</strong></li>
+<li>
+<p>Create a GitHub Actions workflow file <code>.github/workflows/deploy.yml</code>.
+     ```yaml
+     name: Deploy MkDocs site</p>
+<p>on:
+   push:
+     branches:
+       - main  # or the branch you want to deploy from</p>
+<p>jobs:
+   deploy:
+     runs-on: ubuntu-latest</p>
+<pre><code> steps:
+   - name: Checkout repository
+     uses: actions/checkout@v2
+
+   - name: Set up Python
+     uses: actions/setup-python@v2
+     with:
+       python-version: '3.x'
+
+   - name: Install MkDocs and dependencies
+     run: |
+       pip install mkdocs
+
+   - name: Deploy to GitHub Pages
+     run: |
+       mkdocs gh-deploy --force
+     env:
+       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+</code></pre>
+<p>```</p>
+</li>
+<li>
+<p><strong>Commit and Push:</strong></p>
+</li>
+<li>Commit your changes and push them to GitHub.
+     <code>bash
+     git add .
+     git commit -m "Set up MkDocs site"
+     git push origin main</code></li>
+</ol>
+<h3 id="4-host-your-handbook">4. Host Your Handbook</h3>
+<p>Once your site is built and deployed, it will be accessible via the URL provided by your hosting service (e.g., <code>https://&lt;username&gt;.github.io/&lt;repo&gt;</code> for GitHub Pages).</p>
+<h3 id="summary">Summary</h3>
+<ul>
+<li><strong>Set up a Git repository</strong> to version your handbook.</li>
+<li><strong>Choose a static site generator</strong> like MkDocs.</li>
+<li><strong>Create your content in Markdown</strong> files.</li>
+<li><strong>Build and serve your site locally</strong> to preview changes.</li>
+<li><strong>Automate deployment</strong> using GitHub Actions, GitLab CI/CD, or another CI tool.</li>
+<li><strong>Host your site</strong> using GitHub Pages, GitLab Pages, or a similar service.</li>
+</ul>
+<p>By following these steps, you can create a self-hosted, Git versioned handbook with ease.</p>
+<h3 id="5-setup-github-pages-settings">5. Setup GitHub pages settings</h3>
+<p>Once the action has deployed successfully once - In the repository on github, go to settings &gt; pages. Under Build and deployment, select source as "Deploy from a branch". Then select gh-pages as your branch and choose the root folder. Then press save. This will serve the github pages content from the gh-pages branch.</p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="info/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+      <span><a href="info/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = ".";</script>
+    <script src="js/theme_extra.js"></script>
+    <script src="js/theme.js"></script>
+      <script src="search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.6.0
+Build Date UTC : 2024-06-26 15:58:03.452451+00:00
+-->
